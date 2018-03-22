@@ -1,0 +1,149 @@
+body{
+	margin: 0 auto;
+}
+#header{
+	background: url(../img/stars.png);
+	height: 100vh;
+}
+.head{
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.logo{
+	margin-left:150px;
+	color: white;
+	margin-top: 23px;
+}
+.logo span{
+	font-weight: bold;
+	color:red;
+	font-style: italic;
+	margin-right: 10px;
+
+}
+.navigation{
+	margin-top: 15px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.navigation ul{
+	display: flex;
+	list-style: none;
+}
+.navigation li{
+	margin: 10px;
+}
+.navigation a{
+	text-decoration: none;
+	color:white;
+}
+.navigation input{
+	border: none;
+	margin: 10px;
+	padding:15px 25px;
+	border-radius: 40px;
+	outline: none;
+}
+#header hr{
+	border:0.5px solid #422d42;
+}	
+form{
+	display: flex;
+	align-items: center;
+}	
+form button{
+	border: none;
+	border-radius: 50px;
+	position: relative;
+	right: 60px;
+	background: white;
+	outline: none;
+	cursor: pointer;
+}
+.mainText{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: right;
+	height: 80%;
+
+}
+.mainText h1{
+	font-weight: bold;
+	font-size:50px;
+	color:white;
+}
+.mainText button{
+	border:none;
+	padding: 15px 50px;
+	background: #8824cd;
+	font-weight: bold;
+	color: white;
+	border-radius: 50px;
+}
+.mainText p{
+	font-size: 15px;
+	color:white;
+}
+.text{
+	margin-left: 18%;
+	
+}
+#blue{
+	background: url(../img/blue.png);
+	height:55vh;
+
+}
+#blue .block3{
+	padding-top: 70px;
+}
+#blue .block2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#blue .block{
+	margin:15px;
+}
+#blue .block h6{
+	color: white;
+	margin:0px;
+}
+#blue .block p{
+	color:white;
+	width: 400px;
+}
+#pink{
+	background: url(../img/forest.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.pinkForest{
+	text-align: center;
+	padding-top: 160px;
+}
+.pinkForest h3{
+	margin:0;
+	font-size: 35px;
+	color:white;
+}
+.pinkForest p{
+	color:white;
+	line-height: 1.6;
+	text-align: center;
+
+}
+.pinkForest button{
+	padding:15px 50px;
+	border-radius: 50px;
+	border:none;
+	background:white;
+	color:#e07c8d;
+	font-weight: bold;
+}
+.pinkForest .but{
+	text-align: center;
+}
