@@ -3,6 +3,8 @@ body{
 }
 #header{
 	background: url(../img/stars.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
 }
 .head{
