@@ -6,6 +6,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+	font-family: 'Poppins', sans-serif;
 }
 .head{
 
@@ -96,11 +97,12 @@ form button{
 }
 #blue{
 	background: url(../img/blue.png);
-	height:55vh;
+	font-family: 'Poppins', sans-serif;
 
 }
 #blue .block3{
-	padding-top: 70px;
+	padding-top: 80px;
+	padding-bottom:100px;
 }
 #blue .block2{
 	display: flex;
@@ -121,7 +123,8 @@ form button{
 #pink{
 	background: url(../img/forest.png);
 	background-repeat: no-repeat;
-	height: 100vh;
+	background-size: cover;
+	font-family: 'Nunito', sans-serif;font-family: 'Nunito', sans-serif;
 }
 .pinkForest{
 	text-align: center;
@@ -145,7 +148,140 @@ form button{
 	background:white;
 	color:#e07c8d;
 	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 190px;
+
 }
 .pinkForest .but{
 	text-align: center;
+}
+#handPen{
+	margin:0;
+	display: flex;
+}
+.photo{
+	width: 50%;
+}
+.photo img{
+	width: 100%;
+	height: 100%;
+}
+.handText{
+	width:50%;
+	margin: 50px 80px 50px 70px;
+}
+#violet{
+	background: url(../img/violet.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Abel', sans-serif;
+}
+.violetText{
+	text-align: center;
+	padding-top: 180px;
+}
+.violetText h4{
+	font-size: 30px;
+	color:white;
+	margin:0;
+}
+.violetText p{
+	color:#7b4e8a;
+
+}
+.violetText button{
+	border:none;
+	color:white;
+	background: #8824cd;
+	padding:15px 60px;
+	border-radius: 40px;
+}
+.violetText span{
+	color:white;
+}
+.violetText .vil{
+	padding-bottom: 110px;
+	margin-bottom: 0px;
+}
+#wog{
+	background: url(../img/wog.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.mainWog{
+	color: white;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-top:280px;
+	padding-bottom: 90px;
+}
+.textWog{
+	margin-left: 14%;
+}
+.textWog button{
+	border:1px solid white;
+	color:white;
+	background: none;
+	border-radius: 40px;
+	padding:7px 25px;
+}
+.textWog h2{
+	font-size: 30px;
+
+}
+.image{
+	display: flex;
+}
+.image p{
+	margin-left: 15px;
+}
+#clock{
+	margin:0;
+	display: flex;
+}
+#clock .photo{
+	width: 50%;
+}
+#clock .photo img{
+	width: 100%;
+	height: 100%;
+}
+#clock .handText{
+	width:50%;
+	margin: 50px 30px 50px 70px;
+}
+#tomato{
+	background: #e7526b;
+	color:white;
+
+}
+.general{
+	padding-top: 80px;
+	padding-bottom: 170px;
+	margin-left: 7%;
+}
+#tomato h5{
+	margin:0px;
+}
+#tomato p {
+	margin-bottom: 0px;
+	width: 400px;
+	padding-bottom: 30px;
+}
+#tomato a{
+	color:white;
+}
+footer{
+	background: #2e3b4e;
+
+}
+footer p{
+	margin:0;
+	padding-top: 30px;
+	padding-bottom: 300px;
+	color: white;
+	margin-left: 120px;
 }
