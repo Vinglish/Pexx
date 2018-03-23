@@ -1,5 +1,6 @@
 body{
 	margin: 0 auto;
+	max-width: 2000px;
 }
 #header{
 	background: url(../img/stars.png);
